@@ -1,0 +1,254 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix"
+    },
+    "vim.vimrc.enable": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.vimrc.path": "C:\\Users\\mmdkzm\\.vimrc",
+    "python.defaultInterpreterPath": "C:\\Users\\mmdkzm\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.languageServer": "Jedi",
+    "files.autoSave": "afterDelay",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "commentTranslate.targetLanguage": "en",
+    "editor.fontSize": 21,
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "material-icon-theme",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+
+
+
+    // mohammad vim configs
+    // scoop bucket add im-select https://github.com/daipeihust/im-select
+    // scoop install im-select
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.leader": "<space>",
+    "vim.surround": true,
+    "vim.sneak": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                ":"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ],
+            "silent": true
+        },
+        {
+            "before": [
+                "<leader>",
+                "m"
+            ],
+            "commands": [
+                "bookmarks.toggle"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "bookmarks.list"
+            ]
+        },
+        // format code mohammad
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "c"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        // debug stop mohammad
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.debug.stop"
+            ]
+        },
+        // debug restart mohammad
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.debug.restart"
+            ]
+        },
+        // debug hot reload mohammad
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "r"
+            ],
+            "commands": [
+                "flutter.hotReload"
+            ],
+            "when": [
+                "inDebugMode && debugType == 'dart'"
+            ]
+        },
+        // debug run mohammad
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "r"
+            ],
+            "commands": [
+                "debuggersAvailable && debugState != 'initializing'"
+            ]
+        },
+        // debug step over mohammad
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s",
+                "o"
+            ],
+            "commands": [
+                "debugState == 'stopped'"
+            ],
+            "when": []
+        }
+        // Debug: Step Out
+        ,
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s",
+                "o"
+            ],
+            "commands": [
+                ""
+            ],
+            "when": []
+        }
+        // Debug: Step Into
+        ,
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s",
+                "o"
+            ],
+            "commands": [
+                ""
+            ],
+            "when": []
+        }
+        // Debug: step back
+        ,
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "s",
+                "o"
+            ],
+            "commands": [
+                ""
+            ],
+            "when": []
+        },
+        // add to watch 
+        // pickle watch list 
+        // load pickles 
+        // toggle breakpoint
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+    ],
+    "git.autofetch": true
+}
