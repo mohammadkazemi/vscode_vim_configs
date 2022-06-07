@@ -28,12 +28,29 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
-
-
-
     // mohammad vim configs
+
+
+    // ##################################################################
     // scoop bucket add im-select https://github.com/daipeihust/im-select
     // scoop install im-select
+    // switch keyboard input method in normal mode
+
+    // local || language code || lcid string || lcid hexadecimal || codepage
+    // Farsi - Persian         ||	fa||	fa ||	1065 ||	429 ||	1256 ||
+    // English - United States ||	en ||	en-us||	1033||	409 ||	1252 ||
+
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "1033",
+
+    // configuration in windows
+    "vim.autoSwitchInputMethod.obtainIMCmd": "C:\\Users\\mmdkzm\\scoop\\apps\\im-select\\1.0.1\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "C:\\Users\\mmdkzm\\scoop\\apps\\im-select\\1.0.1\\im-select.exe 1065",
+    // configuration in linux 
+    // configuration in mac 
+    // ##################################################################
+
+
     "vim.easymotion": true,
     "vim.incsearch": true,
     "vim.useSystemClipboard": true,
