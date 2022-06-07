@@ -6,7 +6,7 @@
     },
     "vim.vimrc.enable": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "vim.vimrc.path": "C:\\Users\\mmdkzm\\.vimrc",
+    "vim.vimrc.path": "C:\\Users\\mmdkzm\\AppData\\Roaming\\Code\\User\\.vimrc",
     "python.defaultInterpreterPath": "C:\\Users\\mmdkzm\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "python.languageServer": "Jedi",
     "files.autoSave": "afterDelay",
