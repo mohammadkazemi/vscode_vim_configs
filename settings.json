@@ -55,7 +55,7 @@
     "vim.sneak": true,
     "vim.camelCaseMotion.enable": true,
     "vim.enableNeovim": true,
-    "vim.neovimPath": "C:\\Users\\mmdkzm\\scoop\\apps\neovim\\current\\bin\\nvim-qt.exe",
+    "vim.neovimPath": "C:\\Users\\mmdkzm\\scoop\\apps\\neovim\\0.7.0\\bin\\nvim",
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -272,7 +272,7 @@
                 "d",
                 "a",
             ],
-            "command": [
+            "commands": [
                 "editor.debug.action.selectionToWatch"
             ]
         },
@@ -295,7 +295,7 @@
                 "a",
                 "e"
             ],
-            "command": [
+            "commands": [
                 "debug.addToWatchExpressions"
             ]
         },
@@ -308,7 +308,7 @@
                 "e",
                 "e"
             ],
-            "command": [
+            "commands": [
                 "debug.setWatchExpression"
             ]
         },
@@ -319,7 +319,7 @@
                 "d",
                 "t",
             ],
-            "command": [
+            "commands": [
                 "editor.debug.action.toggleBreakpoint"
             ],
             "when": [
@@ -334,7 +334,7 @@
                 "t",
                 "t",
             ],
-            "command": [
+            "commands": [
                 "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
             ]
         },
@@ -347,7 +347,7 @@
                 "t",
                 "t",
             ],
-            "command": [
+            "commands": [
                 "editor.debug.action.toggleInlineBreakpoint"
             ],
             "when": [
@@ -361,9 +361,9 @@
                 "d",
                 "g",
                 "n",
-                "b",
+                "b"
             ],
-            "command": [
+            "commands": [
                 "editor.debug.action.goToNextBreakpoint"
             ]
         },
@@ -374,9 +374,9 @@
                 "d",
                 "g",
                 "p",
-                "b",
+                "b"
             ],
-            "command": [
+            "commands": [
                 "editor.debug.action.goToPreviousBreakpoint"
             ]
         }
