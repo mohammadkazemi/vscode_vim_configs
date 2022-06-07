@@ -415,5 +415,9 @@
     "git.autofetch": true,
     "window.menuBarVisibility": "compact",
     "editor.lineNumbers": "relative",
-    "vim.vimrc.enable": true
+    "vim.vimrc.enable": true,
+    "files.exclude": {
+        "**/.git": false,
+        "// **/.git": true
+    }
 }
