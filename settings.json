@@ -4,7 +4,6 @@
         "editor.formatOnPaste": false,
         "editor.suggestSelection": "recentlyUsedByPrefix"
     },
-    "vim.vimrc.enable": true,
     "security.workspace.trust.untrustedFiles": "open",
     "vim.vimrc.path": "C:\\Users\\mmdkzm\\AppData\\Roaming\\Code\\User\\.vimrc",
     "python.defaultInterpreterPath": "C:\\Users\\mmdkzm\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
@@ -31,8 +30,6 @@
     // #################################################
     // ### mohammad vscode vim configurations        ###
     // #################################################
-
-
     // // scoop bucket add im-select https://github.com/daipeihust/im-select
     // // scoop install im-select
     // // switch keyboard input method in normal mode
@@ -112,15 +109,15 @@
         },
     ],
     "vim.normalModeKeyBindings": [
-        {
-            "before": [
-                ":"
-            ],
-            "commands": [
-                "workbench.action.showCommands",
-            ],
-            "silent": true
-        },
+        // {
+        //     "before": [
+        //         ":"
+        //     ],
+        //     "commands": [
+        //         "workbench.action.showCommands",
+        //     ],
+        //     "silent": true
+        // },
         {
             "before": [
                 "<leader>",
@@ -275,7 +272,9 @@
                 "d",
                 "a",
             ],
-            "command": "editor.debug.action.selectionToWatch"
+            "command": [
+                "editor.debug.action.selectionToWatch"
+            ]
         },
         // pickle watch list 
         // {
@@ -296,7 +295,9 @@
                 "a",
                 "e"
             ],
-            "command": "debug.addToWatchExpressions"
+            "command": [
+                "debug.addToWatchExpressions"
+            ]
         },
         // set watch expression
         {
@@ -307,7 +308,9 @@
                 "e",
                 "e"
             ],
-            "command": "debug.setWatchExpression"
+            "command": [
+                "debug.setWatchExpression"
+            ]
         },
         // Debug: Toggle Breakpoint
         {
@@ -316,8 +319,12 @@
                 "d",
                 "t",
             ],
-            "command": "editor.debug.action.toggleBreakpoint",
-            "when": "debuggersAvailable && editorTextFocus"
+            "command": [
+                "editor.debug.action.toggleBreakpoint"
+            ],
+            "when": [
+                "debuggersAvailable && editorTextFocus"
+            ]
         },
         // Toggle Activate Breakpoints
         {
@@ -327,7 +334,9 @@
                 "t",
                 "t",
             ],
-            "command": "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
+            "command": [
+                "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
+            ]
         },
         // Debug: Inline Breakpoint
         {
@@ -338,8 +347,12 @@
                 "t",
                 "t",
             ],
-            "command": "editor.debug.action.toggleInlineBreakpoint",
-            "when": "editorTextFocus"
+            "command": [
+                "editor.debug.action.toggleInlineBreakpoint"
+            ],
+            "when": [
+                "editorTextFocus"
+            ]
         },
         // Debug: Go to Next Breakpoint
         {
@@ -350,7 +363,9 @@
                 "n",
                 "b",
             ],
-            "command": "editor.debug.action.goToNextBreakpoint"
+            "command": [
+                "editor.debug.action.goToNextBreakpoint"
+            ]
         },
         // Debug: Go to Previous Breakpoint
         {
@@ -361,7 +376,9 @@
                 "p",
                 "b",
             ],
-            "command": "editor.debug.action.goToPreviousBreakpoint"
+            "command": [
+                "editor.debug.action.goToPreviousBreakpoint"
+            ]
         }
     ],
     "vim.visualModeKeyBindings": [
@@ -396,5 +413,7 @@
     // ### mohammad vscode vim configurations        ###
     // #################################################
     "git.autofetch": true,
-    "window.menuBarVisibility": "compact"
+    "window.menuBarVisibility": "compact",
+    "editor.lineNumbers": "relative",
+    "vim.vimrc.enable": true
 }
