@@ -28,8 +28,11 @@
         "editor.tabCompletion": "onlySnippets",
         "editor.wordBasedSuggestions": false
     },
-    // mohammad vim configs
-    // // ##################################################################
+    // #################################################
+    // ### mohammad vscode vim configurations        ###
+    // #################################################
+
+
     // // scoop bucket add im-select https://github.com/daipeihust/im-select
     // // scoop install im-select
     // // switch keyboard input method in normal mode
@@ -82,6 +85,14 @@
         "<C-w>": true,
     },
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        },
         {
             "before": [
                 "<C-n>"
@@ -167,8 +178,8 @@
                 "workbench.action.debug.restart"
             ],
             "when": [
+                "inDebugMode"
             ]
-
         },
         // debug hot reload mohammad
         {
@@ -204,9 +215,11 @@
                 "o"
             ],
             "commands": [
-                "debugState == 'stopped'"
+                "workbench.action.debug.stepOver"
             ],
-            "when": []
+            "when": [
+                "debugState == 'stopped'"
+            ]
         }
         // Debug: Step Out
         ,
@@ -215,12 +228,15 @@
                 "<leader>",
                 "d",
                 "s",
-                "o"
+                "o",
+                "t"
             ],
             "commands": [
-                ""
+                "workbench.action.debug.stepOut"
             ],
-            "when": []
+            "when": [
+                "debugState == 'stopped'"
+            ]
         }
         // Debug: Step Into
         ,
@@ -229,12 +245,14 @@
                 "<leader>",
                 "d",
                 "s",
-                "o"
+                "i"
             ],
             "commands": [
-                ""
+                "workbench.action.debug.stepInto"
             ],
-            "when": []
+            "when": [
+                "debugState != 'inactive'"
+            ]
         }
         // Debug: step back
         ,
@@ -246,14 +264,105 @@
                 "o"
             ],
             "commands": [
-                ""
+                "workbench.action.debug.stepBack"
             ],
             "when": []
         },
         // add to watch 
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "a",
+            ],
+            "command": "editor.debug.action.selectionToWatch"
+        },
         // pickle watch list 
-        // load pickles 
+        // {
+        //     "before": [
+        //         "<leader>",
+        //         "d",
+        //         "",
+        //     ],
+        //     "command": 
+        // },
+        // load pickles to ..... (should think about that)
         // toggle breakpoint
+        // add to watch expression
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "a",
+                "e"
+            ],
+            "command": "debug.addToWatchExpressions"
+        },
+        // set watch expression
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "a",
+                "e",
+                "e"
+            ],
+            "command": "debug.setWatchExpression"
+        },
+        // Debug: Toggle Breakpoint
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "t",
+            ],
+            "command": "editor.debug.action.toggleBreakpoint",
+            "when": "debuggersAvailable && editorTextFocus"
+        },
+        // Toggle Activate Breakpoints
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "t",
+                "t",
+            ],
+            "command": "workbench.debug.viewlet.action.toggleBreakpointsActivatedAction"
+        },
+        // Debug: Inline Breakpoint
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "t",
+                "t",
+                "t",
+            ],
+            "command": "editor.debug.action.toggleInlineBreakpoint",
+            "when": "editorTextFocus"
+        },
+        // Debug: Go to Next Breakpoint
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "g",
+                "n",
+                "b",
+            ],
+            "command": "editor.debug.action.goToNextBreakpoint"
+        },
+        // Debug: Go to Previous Breakpoint
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "g",
+                "p",
+                "b",
+            ],
+            "command": "editor.debug.action.goToPreviousBreakpoint"
+        }
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -273,6 +382,19 @@
             ]
         },
     ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<space>"
+            ],
+            "commands": [
+                "whichkey.show"
+            ]
+        }
+    ],
+    // #################################################
+    // ### mohammad vscode vim configurations        ###
+    // #################################################
     "git.autofetch": true,
     "window.menuBarVisibility": "compact"
 }
