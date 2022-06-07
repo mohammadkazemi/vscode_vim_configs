@@ -55,7 +55,11 @@
     "vim.sneak": true,
     "vim.camelCaseMotion.enable": true,
     "vim.enableNeovim": true,
+    // windows neovim path 
     "vim.neovimPath": "C:\\Users\\mmdkzm\\scoop\\apps\\neovim\\0.7.0\\bin\\nvim",
+    // linux neovim path 
+    // "vim.neovimPath": "",
+
     "vim.insertModeKeyBindings": [
         {
             "before": [
