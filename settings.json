@@ -85,14 +85,14 @@
         "<C-w>": true,
     },
     "vim.normalModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        },
+        // {
+        //     "before": [
+        //         "<space>"
+        //     ],
+        //     "commands": [
+        //         "whichkey.show"
+        //     ]
+        // },
         {
             "before": [
                 "<C-n>"
@@ -383,14 +383,14 @@
         },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
-        {
-            "before": [
-                "<space>"
-            ],
-            "commands": [
-                "whichkey.show"
-            ]
-        }
+        // {
+        //     "before": [
+        //         "<space>"
+        //     ],
+        //     "commands": [
+        //         "whichkey.show"
+        //     ]
+        // }
     ],
     // #################################################
     // ### mohammad vscode vim configurations        ###
