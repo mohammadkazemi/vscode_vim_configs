@@ -59,7 +59,6 @@
     "vim.neovimPath": "C:\\Users\\mmdkzm\\scoop\\apps\\neovim\\0.7.0\\bin\\nvim",
     // linux neovim path 
     // "vim.neovimPath": "",
-
     "vim.insertModeKeyBindings": [
         {
             "before": [
@@ -190,23 +189,23 @@
                 "r"
             ],
             "commands": [
-                "flutter.hotReload"
+                "dart.hotReload"
             ],
             "when": [
                 "inDebugMode && debugType == 'dart'"
             ]
         },
         // debug run mohammad
-        {
-            "before": [
-                "<leader>",
-                "d",
-                "r"
-            ],
-            "commands": [
-                "debuggersAvailable && debugState != 'initializing'"
-            ]
-        },
+        // {
+        //     "before": [
+        //         "<leader>",
+        //         "d",
+        //         "r"
+        //     ],
+        //     "commands": [
+        //         "debuggersAvailable && debugState != 'initializing'"
+        //     ]
+        // },
         // debug step over mohammad
         {
             "before": [
@@ -383,7 +382,102 @@
             "commands": [
                 "editor.debug.action.goToPreviousBreakpoint"
             ]
-        }
+        },
+        // go to next problem in files
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "shift",
+                "p"
+            ],
+            "commands": [
+                "editor.action.marker.nextInFiles"
+            ],
+            "when": "editorFocus"
+        },
+        // go to Previous problem in files
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "shift",
+                "P"
+            ],
+            "commands": [
+                "editor.action.marker.prevInFiles"
+            ],
+            "when": "editorFocus"
+        },
+        // go to next problem
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "p"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ],
+            "when": "editorFocus"
+        },
+        // go to Previous problem
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "P"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ],
+            "when": "editorFocus"
+        },
+        // quick fix navigation problem 
+        // install keyboard-quickfix extention
+        {
+            "before": [
+                "<leader>",
+                "."
+            ],
+            "commands": [
+                "keyboard-quickfix.openQuickFix"
+            ],
+            // "when": "editorFocus"
+        },
+        // {
+        //     "before": [
+        //         "ctrl+j",
+        //     ],
+        //     "commands": [
+        //         "keyboard-quickfix.quickOpenSelectNext"
+        //     ],
+        //     "when": "keyboard-quickfix.openQuickFix"
+        // },
+        // {
+        //     "before": [
+        //         "ctrl+k",
+        //     ],
+        //     "commands": [
+        //         "workbench.action.quickOpenSelectPrevious"
+        //     ],
+        //     "when": "keyboard-quickfix.openQuickFix"
+        // },
+        // This works for the autocomplete menu very well (I use alt-j/k, but works great), however it doesn't work with the quick fix menu. For that you need the keyboard quickfix extension 
+        // {
+        //     "before": [
+        //         "ctrl+k",
+        //     ],
+        //     "commands":["selectPrevSuggestion"],
+        //     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        // },
+        // {
+        //     "before": [
+        //         "ctrl+j",
+        //     ],
+        //     "commands":["selectNextSuggestion"],
+        //     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+        // }
     ],
     "vim.visualModeKeyBindings": [
         {
