@@ -478,6 +478,66 @@
         //     "commands":["selectNextSuggestion"],
         //     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
         // }
+        
+        // show documentaion hover  its implemented in vscode-vim : gh
+        // {
+        //     "before": [
+        //         "<leader>",
+        //         "s", // show 
+        //         "d", // documention
+        //     ],
+        //     "commands":["editor.action.showHover"],
+        //     "when": "editorTextFocus"
+        // },
+
+        // todo: scroll top margin: https://github.com/Microsoft/vscode/issues/12048
+        // todo: https://github.com/VSCodeVim/Vim/issues/1427
+        // todo: https://github.com/microsoft/vscode/issues/69836
+
+        // Debug: Show Hover  
+        {
+            "before": [
+                "<leader>",
+                "d", // debug 
+                "s", // show 
+                "d", // documention
+            ],
+            "commands":["editor.action.showHover"],
+            "when": "editorTextFocus"
+        },
+        // Show Definition Preview Hover
+        {
+            "before": [
+                "<leader>",
+                "s", // show 
+                "d", // documention
+                // "m", // more
+            ],
+            "commands":["editor.action.showDefinitionPreviewHover"],
+            "when": "editorTextFocus"
+        },
+
+        // Todo: hover navigation : https://github.com/microsoft/vscode/issues/69836#issuecomment-1053947226
+        // Todo: implement this navigations : https://code.visualstudio.com/docs/editor/editingevolved
+
+        // select flutter widget 
+        {
+            "before": [
+                "<leader>",
+                "s", // select 
+                "f", // flutter
+                "w", // widget
+            ],
+            "after": [
+                "v",
+                "i",
+                "w",
+                "l",
+                "%",
+            ]
+        },
+        // todo: shortcut key for copy problem error to clipboard and search in google
+        
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -517,5 +577,7 @@
     "files.exclude": {
         "**/.git": false,
         "// **/.git": true
-    }
+    },
+    "commitReminder.interval": 5,
+    "commitReminder.intervalUnit": "minutes"
 }
