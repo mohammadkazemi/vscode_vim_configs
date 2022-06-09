@@ -536,6 +536,9 @@
                 "%",
             ]
         },
+
+
+
         // todo: shortcut key for copy problem error to clipboard and search in google
         
     ],
@@ -579,5 +582,6 @@
         "// **/.git": true
     },
     "commitReminder.interval": 5,
-    "commitReminder.intervalUnit": "minutes"
+    "commitReminder.intervalUnit": "minutes",
+    "editor.cursorSurroundingLines": 7
 }
