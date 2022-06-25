@@ -71,7 +71,7 @@
         "when": "inKeybindings && inKeybindingsSearch"
     },
     {
-        "key": "alt+k",
+        "key": "k",
         "command": "vim.remap",
         "when": "inputFocus && vim.mode == 'Normal'",
         "args": {
@@ -83,7 +83,7 @@
         }
     },
     {
-        "key": "alt+j",
+        "key": "j",
         "command": "vim.remap",
         "when": "inputFocus && vim.mode == 'Normal'",
         "args": {

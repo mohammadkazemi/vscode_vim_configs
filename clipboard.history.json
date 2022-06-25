@@ -2,10 +2,76 @@
   "version": 2,
   "clips": [
     {
+      "value": "+",
+      "createdAt": 1656144731351,
+      "copyCount": 5,
+      "useCount": 4,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 10
+          },
+          "end": {
+            "line": 76,
+            "character": 10
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "t",
+      "createdAt": 1656145072270,
+      "copyCount": 2,
+      "useCount": 2,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 85,
+            "character": 16
+          },
+          "end": {
+            "line": 85,
+            "character": 16
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "a",
+      "createdAt": 1656145065680,
+      "copyCount": 3,
+      "useCount": 3,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 73,
+            "character": 16
+          },
+          "end": {
+            "line": 73,
+            "character": 16
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "l",
+      "createdAt": 1656145065837,
+      "copyCount": 1,
+      "useCount": 1
+    },
+    {
       "value": "",
       "createdAt": 1655794798382,
-      "copyCount": 20,
-      "useCount": 17,
+      "copyCount": 21,
+      "useCount": 21,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -22,10 +88,30 @@
       }
     },
     {
+      "value": "<!-- ================================================================== -->",
+      "createdAt": 1656141027185,
+      "copyCount": 2,
+      "useCount": 2,
+      "language": "markdown",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 1647,
+            "character": 0
+          },
+          "end": {
+            "line": 1647,
+            "character": 0
+          }
+        },
+        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
+      }
+    },
+    {
       "value": "    {\r\n        \"key\": \"alt+k\",\r\n        \"command\": \"vim.remap\",\r\n        \"when\": \"inputFocus && vim.mode == 'Normal'\",\r\n        \"args\": {\r\n            \"after\": [\r\n                \"k\",\r\n                \"z\",\r\n                \"t\"\r\n            ],\r\n        }\r\n    }",
       "createdAt": 1656144808096,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -45,7 +131,7 @@
       "value": "{",
       "createdAt": 1656144802523,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -65,7 +151,7 @@
       "value": " ",
       "createdAt": 1655971389666,
       "copyCount": 6,
-      "useCount": 4,
+      "useCount": 6,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -85,7 +171,7 @@
       "value": "y",
       "createdAt": 1656144733393,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -96,26 +182,6 @@
           "end": {
             "line": 76,
             "character": 11
-          }
-        },
-        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
-      }
-    },
-    {
-      "value": "+",
-      "createdAt": 1656144731351,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "jsonc",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 76,
-            "character": 10
-          },
-          "end": {
-            "line": 76,
-            "character": 10
           }
         },
         "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
@@ -125,7 +191,7 @@
       "value": "shift",
       "createdAt": 1656144730837,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -145,7 +211,7 @@
       "value": "ctrl",
       "createdAt": 1656144728835,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -165,13 +231,13 @@
       "value": "{\r\n  \"key\": \"ctrl+shift+y\",\r\n  \"command\": \"vim.remap\",\r\n  \"when\": \"inputFocus && vim.mode == 'Normal'\",\r\n  \"args\": {\r\n    \"after\": [\"y\", \"y\"],\r\n  }\r\n}",
       "createdAt": 1656144637482,
       "copyCount": 2,
-      "useCount": 0
+      "useCount": 2
     },
     {
       "value": "        {\r\n            \"before\": [\"alt+k\"],\r\n            \"after\": [\"z\",\"t\"]\r\n        },",
       "createdAt": 1656144416240,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -191,13 +257,13 @@
       "value": "whats is normal Mode KeyBindings Non Recursive",
       "createdAt": 1656144532818,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "normalModeKeyBindingsNonRecursive",
       "createdAt": 1656144230393,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -217,13 +283,13 @@
       "value": "alt in vscode vim",
       "createdAt": 1656143908656,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "                \"k\"",
       "createdAt": 1656143701887,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -243,7 +309,7 @@
       "value": "                \"<Alt>\",",
       "createdAt": 1656143700890,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -263,19 +329,19 @@
       "value": "alt in vim",
       "createdAt": 1656143628962,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "shortcuts ",
       "createdAt": 1656143565849,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "                \"i\",\"/\",\"/\",\" \",\"t\",\"o\",\"d\",\"o\",\":\",\" \",\"c\",\"r\",\"e\",\"a\",\"t\",\"e\",\" \",\"t\",\"a\",\"b\",\"l\",\"e\",\"<ESC>\"",
       "createdAt": 1656143520129,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -295,7 +361,7 @@
       "value": "leader",
       "createdAt": 1656143509473,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -315,7 +381,7 @@
       "value": "        {\r\n            \"before\": [\r\n                \"<leader>\",\r\n                \"t\"\r\n            ],\r\n            \"after\": [\r\n                \"i\",\"/\",\"/\",\" \",\"t\",\"o\",\"d\",\"o\",\":\",\" \",\"c\",\"r\",\"e\",\"a\",\"t\",\"e\",\" \",\"t\",\"a\",\"b\",\"l\",\"e\",\"<ESC>\"\r\n            ]\r\n        },",
       "createdAt": 1656143498270,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -335,7 +401,7 @@
       "value": "        {}",
       "createdAt": 1656143494243,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -355,7 +421,7 @@
       "value": ",",
       "createdAt": 1656143415786,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -375,7 +441,7 @@
       "value": "    {\r\n        \"key\":\"alt+k\",\r\n        \"command\":\"zt\",\r\n    }",
       "createdAt": 1656143412781,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "jsonc",
       "createdLocation": {
         "range": {
@@ -395,13 +461,13 @@
       "value": "assings keystorks to vscode keybindings",
       "createdAt": 1656143370171,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "vscode vim zt command",
       "createdAt": 1656143231539,
       "copyCount": 1,
-      "useCount": 0
+      "useCount": 1
     },
     {
       "value": "mod",
@@ -878,26 +944,6 @@
           "end": {
             "line": 1621,
             "character": 20
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "<!-- ================================================================== -->",
-      "createdAt": 1656141027185,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1647,
-            "character": 0
-          },
-          "end": {
-            "line": 1647,
-            "character": 0
           }
         },
         "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
@@ -1838,66 +1884,6 @@
           "end": {
             "line": 1497,
             "character": 5
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "by",
-      "createdAt": 1656139391622,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1497,
-            "character": 42
-          },
-          "end": {
-            "line": 1497,
-            "character": 42
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "the",
-      "createdAt": 1656139341077,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1497,
-            "character": 22
-          },
-          "end": {
-            "line": 1497,
-            "character": 22
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "to",
-      "createdAt": 1656139320373,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1496,
-            "character": 96
-          },
-          "end": {
-            "line": 1496,
-            "character": 96
           }
         },
         "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
