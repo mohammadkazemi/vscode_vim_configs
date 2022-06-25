@@ -10,7 +10,7 @@
     "python.languageServer": "Jedi",
     "files.autoSave": "afterDelay",
     "editor.unicodeHighlight.nonBasicASCII": false,
-    "commentTranslate.targetLanguage": "en",
+    "commentTranslate.targetLanguage": "fa",
     "editor.fontSize": 21,
     "vscodeGoogleTranslate.preferredLanguage": "English",
     "editor.wordWrap": "on",
@@ -478,7 +478,6 @@
         //     "commands":["selectNextSuggestion"],
         //     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
         // }
-        
         // show documentaion hover  its implemented in vscode-vim : gh
         // {
         //     "before": [
@@ -489,11 +488,9 @@
         //     "commands":["editor.action.showHover"],
         //     "when": "editorTextFocus"
         // },
-
         // todo: scroll top margin: https://github.com/Microsoft/vscode/issues/12048
         // todo: https://github.com/VSCodeVim/Vim/issues/1427
         // todo: https://github.com/microsoft/vscode/issues/69836
-
         // Debug: Show Hover  
         {
             "before": [
@@ -502,7 +499,9 @@
                 "s", // show 
                 "d", // documention
             ],
-            "commands":["editor.action.showHover"],
+            "commands": [
+                "editor.action.showHover"
+            ],
             "when": "editorTextFocus"
         },
         // Show Definition Preview Hover
@@ -513,13 +512,13 @@
                 "d", // documention
                 // "m", // more
             ],
-            "commands":["editor.action.showDefinitionPreviewHover"],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ],
             "when": "editorTextFocus"
         },
-
         // Todo: hover navigation : https://github.com/microsoft/vscode/issues/69836#issuecomment-1053947226
         // Todo: implement this navigations : https://code.visualstudio.com/docs/editor/editingevolved
-
         // select flutter widget 
         {
             "before": [
@@ -536,11 +535,131 @@
                 "%",
             ]
         },
-
-
-
+        // anki card snippet
+        {
+            "before": [
+                "<leader>",
+                "a", // add
+                "c", // card
+            ],
+            "after": [
+                "i",
+                "#",
+                "#",
+                "\n",
+                "`",
+                "`",
+                "`",
+                // dart
+                // "d", "a", "r", "t",
+                // text
+                "t",
+                "e",
+                "x",
+                "t",
+                // sql
+                // python
+                "\n",
+                "\n",
+                "`",
+                "`",
+                "`",
+            ]
+        },
         // todo: shortcut key for copy problem error to clipboard and search in google
-        
+        //  wrap "" around char
+        {
+            "before": [
+                "<leader>",
+                "z",
+                "z"
+            ],
+            "after": [
+                "v",
+                "S",
+                "\"",
+                "a",
+                ",",
+                "<Esc>",
+                "l",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "a",
+                "a"
+            ],
+            "after": [
+                "/",
+                "^",
+                "[",
+                "^",
+                "#",
+                "]",
+                "CR",
+                "V",
+                "/",
+                "#",
+                "#",
+                "CR",
+                "k",
+                "<leader>",
+                "w",
+                "w",
+                "/",
+                "#",
+                "#",
+                "CR",
+            ]
+        },
+        // next line paste
+        {
+            "before": [
+                "<leader>",
+                "v",
+            ],
+            "after": [
+                "o",
+                "<ESC>",
+                "p"
+            ]
+        },
+        // adding one word anki cloze
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "after": [
+                "v",
+                "i",
+                "w",
+                "c",
+                "{",
+                "{",
+                "c",
+                "1",
+                ":",
+                "}",
+                "}",
+                "<Esc>",
+                "h",
+                "P",
+                "e",
+                "e",
+            ]
+        },
+        // todo : create table
+        {
+            "before": [
+                "<leader>",
+                "t"
+            ],
+            "after": [
+                "i","/","/"," ","t","o","d","o",":"," ","c","r","e","a","t","e"," ","t","a","b","l","e","<ESC>"
+            ]
+        }
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -559,6 +678,60 @@
                 "editor.action.outdentLines"
             ]
         },
+        // adding anki cloze 
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "after": [
+                "c",
+                "{",
+                "{",
+                "c",
+                "1",
+                ":",
+                "}",
+                "}",
+                "<Esc>",
+                "h",
+                "P"
+            ]
+        },
+        // card wrap 
+        {
+            "before": [
+                "<leader>",
+                "w",
+                "c"
+            ],
+            "after": [
+                "c",
+                "%",
+                "\n",
+                "`",
+                "`",
+                "`",
+                // python
+                // "p", "y", "t", "h", "o", "n",
+                // start sql
+                // "s","q","l",
+                // dart
+                // "d","a","r","t",
+                // text
+                "t",
+                "e",
+                "x",
+                "t",
+                "\n",
+                "`",
+                "`",
+                "`",
+                "<Esc>",
+                "h",
+                "P"
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         // {
@@ -574,7 +747,6 @@
     // ### mohammad vscode vim configurations        ###
     // #################################################
     "git.autofetch": true,
-    "window.menuBarVisibility": "compact",
     "editor.lineNumbers": "relative",
     "vim.vimrc.enable": true,
     "files.exclude": {
@@ -583,5 +755,39 @@
     },
     "commitReminder.interval": 5,
     "commitReminder.intervalUnit": "minutes",
-    "editor.cursorSurroundingLines": 7
+    "editor.cursorSurroundingLines": 30,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    // Avoid duplicate clips in the list
+    "clipboard-manager.avoidDuplicates": true,
+    // Time in milliseconds to check changes in clipboard. Set zero to disable.
+    "clipboard-manager.checkInterval": 500,
+    // Maximum clipboard size in bytes.
+    "clipboard-manager.maxClipboardSize": 1000000,
+    // Maximum number of clips to save in clipboard
+    "clipboard-manager.maxClips": 100,
+    // Move used clip to top in the list
+    "clipboard-manager.moveToTop": false,
+    // Get clips only from VSCode
+    "clipboard-manager.onlyWindowFocused": false,
+    // View a preview while you are choosing the clip
+    "clipboard-manager.preview": true,
+    // Set location to save the clipboard file, set false to disable
+    "clipboard-manager.saveTo": null,
+    // Enable completion snippets
+    "clipboard-manager.snippet.enabled": true,
+    // Maximum number of clips to suggests in snippets (Zero for all)
+    "clipboard-manager.snippet.max": 10,
+    // Default prefix for snippets completion (clip1, clip2, ...)
+    "clipboard-manager.snippet.prefix": "clip",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "compact",
+    // put cursor surrounding lines to high number so cursor keep in center of screen
 }
