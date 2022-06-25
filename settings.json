@@ -659,7 +659,7 @@
             "after": [
                 "i","/","/"," ","t","o","d","o",":"," ","c","r","e","a","t","e"," ","t","a","b","l","e","<ESC>"
             ]
-        }
+        },
     ],
     "vim.visualModeKeyBindings": [
         {
@@ -755,7 +755,7 @@
     },
     "commitReminder.interval": 5,
     "commitReminder.intervalUnit": "minutes",
-    "editor.cursorSurroundingLines": 30,
+    "editor.cursorSurroundingLines": 8,
     "[json]": {
         "editor.quickSuggestions": {
             "strings": true

@@ -2,10 +2,412 @@
   "version": 2,
   "clips": [
     {
+      "value": "",
+      "createdAt": 1655794798382,
+      "copyCount": 20,
+      "useCount": 17,
+      "language": "markdown",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 631,
+            "character": 0
+          },
+          "end": {
+            "line": 631,
+            "character": 0
+          }
+        },
+        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
+      }
+    },
+    {
+      "value": "    {\r\n        \"key\": \"alt+k\",\r\n        \"command\": \"vim.remap\",\r\n        \"when\": \"inputFocus && vim.mode == 'Normal'\",\r\n        \"args\": {\r\n            \"after\": [\r\n                \"k\",\r\n                \"z\",\r\n                \"t\"\r\n            ],\r\n        }\r\n    }",
+      "createdAt": 1656144808096,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 72,
+            "character": 0
+          },
+          "end": {
+            "line": 72,
+            "character": 0
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "{",
+      "createdAt": 1656144802523,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 72,
+            "character": 4
+          },
+          "end": {
+            "line": 72,
+            "character": 4
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": " ",
+      "createdAt": 1655971389666,
+      "copyCount": 6,
+      "useCount": 4,
+      "language": "markdown",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 1406,
+            "character": 2
+          },
+          "end": {
+            "line": 1406,
+            "character": 2
+          }
+        },
+        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
+      }
+    },
+    {
+      "value": "y",
+      "createdAt": 1656144733393,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 11
+          },
+          "end": {
+            "line": 76,
+            "character": 11
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "+",
+      "createdAt": 1656144731351,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 10
+          },
+          "end": {
+            "line": 76,
+            "character": 10
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "shift",
+      "createdAt": 1656144730837,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 11
+          },
+          "end": {
+            "line": 76,
+            "character": 11
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "ctrl",
+      "createdAt": 1656144728835,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 76,
+            "character": 15
+          },
+          "end": {
+            "line": 76,
+            "character": 15
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "{\r\n  \"key\": \"ctrl+shift+y\",\r\n  \"command\": \"vim.remap\",\r\n  \"when\": \"inputFocus && vim.mode == 'Normal'\",\r\n  \"args\": {\r\n    \"after\": [\"y\", \"y\"],\r\n  }\r\n}",
+      "createdAt": 1656144637482,
+      "copyCount": 2,
+      "useCount": 0
+    },
+    {
+      "value": "        {\r\n            \"before\": [\"alt+k\"],\r\n            \"after\": [\"z\",\"t\"]\r\n        },",
+      "createdAt": 1656144416240,
+      "copyCount": 2,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 662,
+            "character": 4
+          },
+          "end": {
+            "line": 662,
+            "character": 4
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "whats is normal Mode KeyBindings Non Recursive",
+      "createdAt": 1656144532818,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
+      "value": "normalModeKeyBindingsNonRecursive",
+      "createdAt": 1656144230393,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 86,
+            "character": 9
+          },
+          "end": {
+            "line": 86,
+            "character": 9
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "alt in vscode vim",
+      "createdAt": 1656143908656,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
+      "value": "                \"k\"",
+      "createdAt": 1656143701887,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 664,
+            "character": 12
+          },
+          "end": {
+            "line": 664,
+            "character": 12
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "                \"<Alt>\",",
+      "createdAt": 1656143700890,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 664,
+            "character": 16
+          },
+          "end": {
+            "line": 664,
+            "character": 16
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "alt in vim",
+      "createdAt": 1656143628962,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
+      "value": "shortcuts ",
+      "createdAt": 1656143565849,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
+      "value": "                \"i\",\"/\",\"/\",\" \",\"t\",\"o\",\"d\",\"o\",\":\",\" \",\"c\",\"r\",\"e\",\"a\",\"t\",\"e\",\" \",\"t\",\"a\",\"b\",\"l\",\"e\",\"<ESC>\"",
+      "createdAt": 1656143520129,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 668,
+            "character": 12
+          },
+          "end": {
+            "line": 668,
+            "character": 12
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "leader",
+      "createdAt": 1656143509473,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 664,
+            "character": 18
+          },
+          "end": {
+            "line": 664,
+            "character": 18
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "        {\r\n            \"before\": [\r\n                \"<leader>\",\r\n                \"t\"\r\n            ],\r\n            \"after\": [\r\n                \"i\",\"/\",\"/\",\" \",\"t\",\"o\",\"d\",\"o\",\":\",\" \",\"c\",\"r\",\"e\",\"a\",\"t\",\"e\",\" \",\"t\",\"a\",\"b\",\"l\",\"e\",\"<ESC>\"\r\n            ]\r\n        },",
+      "createdAt": 1656143498270,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 653,
+            "character": 0
+          },
+          "end": {
+            "line": 653,
+            "character": 0
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": "        {}",
+      "createdAt": 1656143494243,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 662,
+            "character": 4
+          },
+          "end": {
+            "line": 662,
+            "character": 4
+          }
+        },
+        "uri": "vscode-userdata:/c%3A/Users/mmdkzm/AppData/Roaming/Code/User/settings.json"
+      }
+    },
+    {
+      "value": ",",
+      "createdAt": 1656143415786,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 64,
+            "character": 4
+          },
+          "end": {
+            "line": 64,
+            "character": 4
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "    {\r\n        \"key\":\"alt+k\",\r\n        \"command\":\"zt\",\r\n    }",
+      "createdAt": 1656143412781,
+      "copyCount": 1,
+      "useCount": 0,
+      "language": "jsonc",
+      "createdLocation": {
+        "range": {
+          "start": {
+            "line": 65,
+            "character": 0
+          },
+          "end": {
+            "line": 65,
+            "character": 0
+          }
+        },
+        "uri": "file:///c%3A/Users/mmdkzm/AppData/Roaming/Code/User/keybindings.json"
+      }
+    },
+    {
+      "value": "assings keystorks to vscode keybindings",
+      "createdAt": 1656143370171,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
+      "value": "vscode vim zt command",
+      "createdAt": 1656143231539,
+      "copyCount": 1,
+      "useCount": 0
+    },
+    {
       "value": "mod",
       "createdAt": 1656141574666,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -25,7 +427,7 @@
       "value": "when",
       "createdAt": 1655971108160,
       "copyCount": 6,
-      "useCount": 2,
+      "useCount": 6,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -45,7 +447,7 @@
       "value": "continue",
       "createdAt": 1656141568520,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -65,7 +467,7 @@
       "value": "optional",
       "createdAt": 1655971269846,
       "copyCount": 4,
-      "useCount": 2,
+      "useCount": 4,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -85,7 +487,7 @@
       "value": "normal",
       "createdAt": 1656141537443,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -105,7 +507,7 @@
       "value": "skipped",
       "createdAt": 1656141524224,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -125,7 +527,7 @@
       "value": "expression",
       "createdAt": 1655965099718,
       "copyCount": 8,
-      "useCount": 6,
+      "useCount": 8,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -145,7 +547,7 @@
       "value": "all",
       "createdAt": 1656141453591,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -165,7 +567,7 @@
       "value": "next",
       "createdAt": 1656141443393,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -185,7 +587,7 @@
       "value": "If we analyze the above syntax:",
       "createdAt": 1656140556831,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -205,7 +607,7 @@
       "value": "boolean",
       "createdAt": 1655971469071,
       "copyCount": 2,
-      "useCount": 1,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -225,7 +627,7 @@
       "value": "WHEN",
       "createdAt": 1655964932681,
       "copyCount": 17,
-      "useCount": 16,
+      "useCount": 17,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -245,7 +647,7 @@
       "value": "CONTINUE",
       "createdAt": 1656141400225,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -265,7 +667,7 @@
       "value": "conjecture",
       "createdAt": 1656141393176,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -285,7 +687,7 @@
       "value": "iteration",
       "createdAt": 1656141375393,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -305,7 +707,7 @@
       "value": "after",
       "createdAt": 1656141221818,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -325,7 +727,7 @@
       "value": "before",
       "createdAt": 1656141209177,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -345,7 +747,7 @@
       "value": "not",
       "createdAt": 1656141198975,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -365,7 +767,7 @@
       "value": "prematurely",
       "createdAt": 1656141114161,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -385,7 +787,7 @@
       "value": "passes",
       "createdAt": 1656141100471,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -405,7 +807,7 @@
       "value": "end",
       "createdAt": 1656139618146,
       "copyCount": 10,
-      "useCount": 0,
+      "useCount": 10,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -425,7 +827,7 @@
       "value": "begin",
       "createdAt": 1656139600956,
       "copyCount": 4,
-      "useCount": 0,
+      "useCount": 4,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -445,7 +847,7 @@
       "value": "loop",
       "createdAt": 1656139610532,
       "copyCount": 8,
-      "useCount": 0,
+      "useCount": 8,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -465,7 +867,7 @@
       "value": "exit",
       "createdAt": 1656140561398,
       "copyCount": 4,
-      "useCount": 0,
+      "useCount": 4,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -476,26 +878,6 @@
           "end": {
             "line": 1621,
             "character": 20
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "",
-      "createdAt": 1655794798382,
-      "copyCount": 17,
-      "useCount": 15,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 631,
-            "character": 0
-          },
-          "end": {
-            "line": 631,
-            "character": 0
           }
         },
         "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
@@ -505,7 +887,7 @@
       "value": "<!-- ================================================================== -->",
       "createdAt": 1656141027185,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -525,7 +907,7 @@
       "value": "if",
       "createdAt": 1656140308242,
       "copyCount": 3,
-      "useCount": 0,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -545,7 +927,7 @@
       "value": "then",
       "createdAt": 1656140309764,
       "copyCount": 3,
-      "useCount": 0,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -565,7 +947,7 @@
       "value": "true",
       "createdAt": 1655971524721,
       "copyCount": 3,
-      "useCount": 2,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -585,7 +967,7 @@
       "value": "becomes",
       "createdAt": 1656140823278,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -605,7 +987,7 @@
       "value": "current",
       "createdAt": 1656140798492,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -625,7 +1007,7 @@
       "value": "nested",
       "createdAt": 1656140790339,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -645,7 +1027,7 @@
       "value": "signify",
       "createdAt": 1656140776141,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -665,7 +1047,7 @@
       "value": "condition",
       "createdAt": 1656140568509,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -685,7 +1067,7 @@
       "value": "We can use the exit to terminate looping statements using the following syntax:",
       "createdAt": 1656140553290,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -705,7 +1087,7 @@
       "value": "Using EXIT for loops ",
       "createdAt": 1656140552277,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -725,7 +1107,7 @@
       "value": "code",
       "createdAt": 1656140523777,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -745,7 +1127,7 @@
       "value": "block",
       "createdAt": 1656140515710,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -765,7 +1147,7 @@
       "value": "terminate",
       "createdAt": 1656140465505,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -785,7 +1167,7 @@
       "value": "for",
       "createdAt": 1656139882557,
       "copyCount": 3,
-      "useCount": 0,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -805,7 +1187,7 @@
       "value": "while",
       "createdAt": 1656140477679,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -825,7 +1207,7 @@
       "value": "unconditional",
       "createdAt": 1656140475686,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -845,7 +1227,7 @@
       "value": "rec_count",
       "createdAt": 1656140388470,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -865,7 +1247,7 @@
       "value": "using",
       "createdAt": 1656140095525,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -885,7 +1267,7 @@
       "value": "query",
       "createdAt": 1656140302213,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -905,7 +1287,7 @@
       "value": "execute",
       "createdAt": 1655969868379,
       "copyCount": 2,
-      "useCount": 1,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -925,7 +1307,7 @@
       "value": "in",
       "createdAt": 1656139603501,
       "copyCount": 3,
-      "useCount": 0,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -945,7 +1327,7 @@
       "value": "rec",
       "createdAt": 1656140370362,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -965,7 +1347,7 @@
       "value": "$1",
       "createdAt": 1656140356223,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -985,7 +1367,7 @@
       "value": "else",
       "createdAt": 1655971113722,
       "copyCount": 3,
-      "useCount": 2,
+      "useCount": 3,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1005,7 +1387,7 @@
       "value": "||",
       "createdAt": 1656140314813,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1025,7 +1407,7 @@
       "value": "elsif",
       "createdAt": 1656140319883,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1045,7 +1427,7 @@
       "value": ":=",
       "createdAt": 1655969741448,
       "copyCount": 2,
-      "useCount": 1,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1065,7 +1447,7 @@
       "value": "parameters",
       "createdAt": 1656140102108,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1085,7 +1467,7 @@
       "value": "statement",
       "createdAt": 1655971537348,
       "copyCount": 2,
-      "useCount": 1,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1105,7 +1487,7 @@
       "value": "SQL",
       "createdAt": 1656140081310,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1125,7 +1507,7 @@
       "value": "If we analyse the above syntax:",
       "createdAt": 1656139223748,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1145,7 +1527,7 @@
       "value": "result",
       "createdAt": 1655971896988,
       "copyCount": 4,
-      "useCount": 1,
+      "useCount": 4,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1165,7 +1547,7 @@
       "value": "declare",
       "createdAt": 1656139917493,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1185,7 +1567,7 @@
       "value": "do",
       "createdAt": 1656139599454,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1205,7 +1587,7 @@
       "value": "f",
       "createdAt": 1656139883047,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1225,7 +1607,7 @@
       "value": "Then we insert data into our employee table as follows:",
       "createdAt": 1656139729662,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1245,7 +1627,7 @@
       "value": "First, we create a sample table using the below commands to perform examples:",
       "createdAt": 1656139722595,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1265,7 +1647,7 @@
       "value": "1",
       "createdAt": 1656139685059,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1285,7 +1667,7 @@
       "value": "10",
       "createdAt": 1656139667344,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1305,7 +1687,7 @@
       "value": "$$",
       "createdAt": 1656139632368,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1325,7 +1707,7 @@
       "value": "..",
       "createdAt": 1656139608534,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1345,7 +1727,7 @@
       "value": "cnt",
       "createdAt": 1656139602508,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1365,7 +1747,7 @@
       "value": "[ <<label>> ]\r\nfor loop_cnt in [ reverse ] from.. to [ by step ] loop\r\n\tstatements\r\nend loop [ label ];",
       "createdAt": 1656139517553,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1385,7 +1767,7 @@
       "value": "Flowchart of For loop",
       "createdAt": 1656139471014,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1405,7 +1787,7 @@
       "value": "The following flowchart describes the for loop statement:",
       "createdAt": 1656139470007,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1425,7 +1807,7 @@
       "value": "default",
       "createdAt": 1656139404786,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1445,7 +1827,7 @@
       "value": "step",
       "createdAt": 1656139366844,
       "copyCount": 2,
-      "useCount": 0,
+      "useCount": 2,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1465,37 +1847,17 @@
       "value": "by",
       "createdAt": 1656139391622,
       "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1497,
-            "character": 42
-          },
-          "end": {
-            "line": 1497,
-            "character": 42
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": " ",
-      "createdAt": 1655971389666,
-      "copyCount": 4,
       "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
           "start": {
-            "line": 1406,
-            "character": 2
+            "line": 1497,
+            "character": 42
           },
           "end": {
-            "line": 1406,
-            "character": 2
+            "line": 1497,
+            "character": 42
           }
         },
         "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
@@ -1505,7 +1867,7 @@
       "value": "the",
       "createdAt": 1656139341077,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1525,7 +1887,7 @@
       "value": "to",
       "createdAt": 1656139320373,
       "copyCount": 1,
-      "useCount": 0,
+      "useCount": 1,
       "language": "markdown",
       "createdLocation": {
         "range": {
@@ -1536,438 +1898,6 @@
           "end": {
             "line": 1496,
             "character": 96
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "from",
-      "createdAt": 1656139319370,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1496,
-            "character": 90
-          },
-          "end": {
-            "line": 1496,
-            "character": 90
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "expressions",
-      "createdAt": 1655968999254,
-      "copyCount": 2,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1250,
-            "character": 161
-          },
-          "end": {
-            "line": 1250,
-            "character": 161
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "upper",
-      "createdAt": 1656139294508,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1496,
-            "character": 49
-          },
-          "end": {
-            "line": 1496,
-            "character": 49
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "lower",
-      "createdAt": 1656139293501,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1496,
-            "character": 30
-          },
-          "end": {
-            "line": 1496,
-            "character": 30
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "reverse",
-      "createdAt": 1656139268703,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1495,
-            "character": 210
-          },
-          "end": {
-            "line": 1495,
-            "character": 210
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "integer",
-      "createdAt": 1655969763693,
-      "copyCount": 2,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1343,
-            "character": 20
-          },
-          "end": {
-            "line": 1343,
-            "character": 20
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "1. For loop to iterate over a range of {{c1:integers}}",
-      "createdAt": 1656139196962,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1489,
-            "character": 0
-          },
-          "end": {
-            "line": 1489,
-            "character": 0
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "integers",
-      "createdAt": 1656139152281,
-      "copyCount": 2,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1488,
-            "character": 72
-          },
-          "end": {
-            "line": 1488,
-            "character": 72
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "r",
-      "createdAt": 1656139174023,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1488,
-            "character": 90
-          },
-          "end": {
-            "line": 1488,
-            "character": 90
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "over a result set",
-      "createdAt": 1656139169972,
-      "copyCount": 1,
-      "useCount": 0,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1488,
-            "character": 90
-          },
-          "end": {
-            "line": 1488,
-            "character": 90
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": " زوال شمس",
-      "createdAt": 1656138834545,
-      "copyCount": 1,
-      "useCount": 0
-    },
-    {
-      "value": "کشیدنم ",
-      "createdAt": 1655985200496,
-      "copyCount": 1,
-      "useCount": 1
-    },
-    {
-      "value": "```text\r\nthere is nothing here\r\n```",
-      "createdAt": 1655972131559,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1479,
-            "character": 0
-          },
-          "end": {
-            "line": 1479,
-            "character": 0
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "there is nothing here",
-      "createdAt": 1655972130041,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1479,
-            "character": 20
-          },
-          "end": {
-            "line": 1479,
-            "character": 20
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "Now let’s test the above function using the below statement:",
-      "createdAt": 1655972104817,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1465,
-            "character": 0
-          },
-          "end": {
-            "line": 1465,
-            "character": 0
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "END",
-      "createdAt": 1655964915044,
-      "copyCount": 14,
-      "useCount": 14,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1136,
-            "character": 3
-          },
-          "end": {
-            "line": 1136,
-            "character": 3
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "CASE",
-      "createdAt": 1655964908978,
-      "copyCount": 17,
-      "useCount": 17,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1132,
-            "character": 6
-          },
-          "end": {
-            "line": 1132,
-            "character": 6
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "ELSE",
-      "createdAt": 1655964883168,
-      "copyCount": 11,
-      "useCount": 11,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1129,
-            "character": 164
-          },
-          "end": {
-            "line": 1129,
-            "character": 164
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "THEN",
-      "createdAt": 1655964935687,
-      "copyCount": 15,
-      "useCount": 15,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1132,
-            "character": 54
-          },
-          "end": {
-            "line": 1132,
-            "character": 54
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "CASE_NOT_FOUND",
-      "createdAt": 1655971284045,
-      "copyCount": 2,
-      "useCount": 2,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1391,
-            "character": 217
-          },
-          "end": {
-            "line": 1391,
-            "character": 217
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "found",
-      "createdAt": 1655971897492,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1436,
-            "character": 60
-          },
-          "end": {
-            "line": 1436,
-            "character": 60
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "bottom",
-      "createdAt": 1655971521700,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1435,
-            "character": 196
-          },
-          "end": {
-            "line": 1435,
-            "character": 196
-          }
-        },
-        "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"
-      }
-    },
-    {
-      "value": "top",
-      "createdAt": 1655971520699,
-      "copyCount": 1,
-      "useCount": 1,
-      "language": "markdown",
-      "createdLocation": {
-        "range": {
-          "start": {
-            "line": 1435,
-            "character": 183
-          },
-          "end": {
-            "line": 1435,
-            "character": 183
           }
         },
         "uri": "file:///d%3A/WINDOWS/anki%20backup/AnkiCards/postgres/Postgres.md"

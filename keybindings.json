@@ -20,9 +20,6 @@
         "key": "ctrl+j",
         "command": "workbench.action.navigateDown"
     },
-    
-    
-    
     {
         "key": "ctrl+j",
         "command": "workbench.action.quickOpenSelectNext",
@@ -62,5 +59,39 @@
         "key": "ctrl+k",
         "command": "list.focusUp",
         "when": "listFocus && !inputFocus"
+    },
+    {
+        "key": "alt+o alt+o",
+        "command": "keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "alt+k",
+        "command": "-keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "alt+k",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+            "after": [
+                "k",
+                "z",
+                "t"
+            ],
+        }
+    },
+    {
+        "key": "alt+j",
+        "command": "vim.remap",
+        "when": "inputFocus && vim.mode == 'Normal'",
+        "args": {
+            "after": [
+                "j",
+                "z",
+                "t"
+            ],
+        }
     }
 ]
